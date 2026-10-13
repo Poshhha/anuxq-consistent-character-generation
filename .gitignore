@@ -1,0 +1,31 @@
+# Model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Training datasets / private references
+dataset*/
+datasets/
+reference_images/
+private/
+
+# Training outputs and caches
+output*/
+outputs/
+*.npz
+__pycache__/
+.cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# ComfyUI generated outputs
+temp/
+input/
+
+# OS files
+Thumbs.db
+.DS_Store
